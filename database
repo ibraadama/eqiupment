@@ -1,0 +1,73 @@
+create table equipments2
+(
+    equipmentID int not null
+      primary key,
+      equipmentName varchar(255) not null,
+      kind  varchar(255),
+      initialPraice nchar (255),
+      price nchar (255)
+
+);
+insert into equipments2  (equipmentID, equipmentName, kind, initialPraice, price)
+values ('1','Epicenters 230VAC ','diverse «småutstyr»:','Gratis + papir','Kr. 20,- + papir');
+insert into equipments2  (equipmentID, equipmentName, kind, initialPraice, price)
+values ('2','Båndsliper 230VAC','diverse «småutstyr»:','Gratis + papir','Kr. 20,- + papir');
+
+insert into equipments2  (equipmentID, equipmentName, kind, initialPraice, price)
+values  ('3','Høvel 230VAC ','diverse «småutstyr»: ','Gratis ','Kr. 20,-
+');
+
+insert into equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('4','Gjære-/kombisag 230VAC ','diverse «småutstyr»:','Gratis ','Kr. 20,-');
+insert into equipments2  (equipmentID, equipmentName, kind, initialPraice, price)
+values ('5','9’ vinkelsliper for stein og betong ','– diverse «småutstyr»: ','Gratis','Kr. 20,-
+');
+insert into equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('6','Meislemaskin, 230VAC ','– diverse «småutstyr»:','Gratis','Kr. 20,-');
+insert into equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('7','Slagdrill, Batteri, Milwaukee','diverse «småutstyr»:','Gratis ','Kr. 20,- ');
+
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('8','Kantklipper - bensin','diverse «småutstyr»:','Gratis ','Kr. 20,-');
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('9','Kompressor, 230VAC','diverse «småutstyr»:','Gratis','Kr. 20,-');
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('10','Spikerpistol, stor (trykkluft) ','Spikerpistoler o.l','Gratis','Kr. 20,');
+
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('11','Spikerpistol, liten (trykkluft) ','Spikerpistoler o.l','Gratis','Kr. 20,-
+');
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('12','Spikerpistol, stor (Milwaukee)','Spikerpistoler o.l','Gratis','Kr. 20,-');
+insert into equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('13','Spikerpistol, mellom (Milwaukee)','Spikerpistoler o.l','Gratis','Kr. 20,-');
+
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('14','Spikerpistol, liten (Milwaukee) ','Spikerpistoler o.l','Gratis','Kr. 20,-');
+insert into equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values  ('15','Vedkløyver, Bensindrevet','Utstyr for vedhogst:','Gratis','Kr. 50,- ');
+insert into   equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('16','Fliskutter for trevirke ','Utstyr for vedhogst:','Gratis','Kr. 50,- ');
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values  ('17','Tilhenger, boggi; RD 5702 ','Tilhengere','Gratis','Kr. 50,- ');
+ insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+ values  ('18','Tilhenger, liten, RC 8834
+Kassemål LxBxH: 197x153x29cm
+Nyttelast max. 645kg','Tilhengere','Gratis','Kr. 50,-');
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values  ('19','Tilhenger, skap, JP2591
+Kassemål innv. LxBxH: 292x154x194cm
+(Dørkarm BxH: 146x190cm)
+Nyttelast: 1090 kg','Tilhengere','Gratis','Kr. 50,-');
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values  ('20','Personløfter, arb.høyde 12m.
+SWL 200 kg, 230 VAC','Større utstyr','Kr. 100,- ','Kr. 100,-');
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('21','Strømaggregat, 3.7 kW (Diesel)','Større utstyr','Gratis','Kr. 50,-');
+insert into  equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('22','Dekkomleggingsmaskin','Større utstyr','Egne regler ','');
+insert into equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('23','Avbalanseringsmaskin','Større utstyr','Egne regler ','');
+insert into equipments2 (equipmentID, equipmentName, kind, initialPraice, price )
+values ('24','Leilighet på Hovden ','Større utstyr ','Egne regler ','Kontakt resepsjonen hos
+AMV');
